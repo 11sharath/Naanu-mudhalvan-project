@@ -75,7 +75,7 @@ def main():
 
     # Save to Excel
     df.to_excel("predictions.xlsx", index=False)
-    print("\n✅ Predictions saved to 'predictions.xlsx'")
+    print("\n Predictions saved to 'predictions.xlsx'")
 
 if __name__ == "__main__":
     main()
